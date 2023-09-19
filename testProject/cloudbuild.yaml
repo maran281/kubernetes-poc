@@ -4,4 +4,4 @@ steps:
     args: ['build','-t','tmprepo/tmp_image_name','.']
 
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['push','tmprepo/tmp_image_name',]
+    args: ['push','tmprepo/tmp_image_name']
