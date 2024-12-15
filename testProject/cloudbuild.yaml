@@ -1,7 +1,0 @@
-steps:
-  - name: 'gcr.io/cloud-builders/docker'
-    dir: 'testProject'
-    args: ['build','-t','us-central1-docker.pkg.dev/manojproject1-396309/tmprepo/tmp_image_name','.']
-
-  - name: 'gcr.io/cloud-builders/docker'
-    args: ['push','us-central1-docker.pkg.dev/manojproject1-396309/tmprepo/tmp_image_name']
